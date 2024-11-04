@@ -6,8 +6,9 @@ import SpecialityMenu from '../components/SpecialityMenu'
 
 const Home = () => {
   return (
-    <div>
-      <Header />
+    <div className='w-full'>
+      {/* Make the header sticky at the top with z-index for layering */}
+      <Header className='mb-10 sticky top-0 z-50' />
       <SpecialityMenu />
       <TopDoctors />
       <Banner />
