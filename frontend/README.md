@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 new readme file
+=======
+hii   hello aryuan
+>>>>>>> e46873ab733a11b07f56e022ba93619c47aae0e1
