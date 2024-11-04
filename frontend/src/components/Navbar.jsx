@@ -33,7 +33,7 @@ const Navbar = () => {
         <NavLink 
           to='/doctors' 
           className={({ isActive }) => 
-            isActive ? 'text-white bg-[#38dbdb] px-4 py-2 rounded-full' : 
+            isActive ? 'text-white bg-[#38dbdb] px-4 py-2 rounded-full ' : 
             'text-gray-600 hover:bg-[#38dbdb] hover:text-white px-4 py-2 rounded-full'
           }
         >
