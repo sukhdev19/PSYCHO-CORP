@@ -20,7 +20,7 @@ const Navbar = () => {
         <span className="text-3xl font-bold ml-2 text-black">PSYCHOCORP</span> {/* Adjusted text size */}
       </div>
 
-      <ul className='md:flex items-center gap-8 font-bold hidden ml-auto'>
+      <ul className='md:flex items-center gap-2 font-bold hidden ml-auto'>
         <NavLink 
           to='/' 
           className={({ isActive }) => 
