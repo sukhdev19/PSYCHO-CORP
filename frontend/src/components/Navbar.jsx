@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { assets } from '../assets/assets';
 import { NavLink, useNavigate } from 'react-router-dom';
-import logo from '../assets/file.png'; // Import the logo image
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -10,22 +9,15 @@ const Navbar = () => {
 
   return (
     <div className='flex items-center justify-between text-sm py-6 mb-5 border-b border-b-gray-400 h-20 sticky top-0 z-50 bg-white'>
-      <div className="flex items-center">
-        <img 
-          onClick={() => navigate('/')} 
-          className='w-18 h-20 cursor-pointer' // Adjust the size as needed
-          src={logo} 
-          alt="Logo" 
-        />
-        <span className="text-3xl font-bold ml-2 text-black">PSYCHOCORP</span> {/* Adjusted text size */}
-      </div>
+        <img onClick={() => navigate('/')} className='w-36 sm:w-40 cursor-pointer' src={assets.logo} alt="" />
+
 
       <ul className='md:flex items-center gap-2 font-bold hidden ml-auto'>
         <NavLink 
           to='/' 
           className={({ isActive }) => 
-            isActive ? 'text-white bg-[#38dbdb] px-4 py-2 rounded-full' : 
-            'text-gray-600 hover:bg-[#38dbdb] hover:text-white px-4 py-2 rounded-full'
+            isActive ? 'text-white bg-primary px-4 py-2 rounded-full' : 
+            'text-gray-600 hover:bg-primary hover:text-white px-4 py-2 rounded-full'
           }
         >
           HOME
@@ -33,8 +25,8 @@ const Navbar = () => {
         <NavLink 
           to='/doctors' 
           className={({ isActive }) => 
-            isActive ? 'text-white bg-[#38dbdb] px-4 py-2 rounded-full ' : 
-            'text-gray-600 hover:bg-[#38dbdb] hover:text-white px-4 py-2 rounded-full'
+            isActive ? 'text-white bg-primary px-4 py-2 rounded-full' : 
+            'text-gray-600 hover:bg-primary hover:text-white px-4 py-2 rounded-full'
           }
         >
           ALL DOCTORS
@@ -42,8 +34,8 @@ const Navbar = () => {
         <NavLink 
           to='/about' 
           className={({ isActive }) => 
-            isActive ? 'text-white bg-[#38dbdb] px-4 py-2 rounded-full' : 
-            'text-gray-600 hover:bg-[#38dbdb] hover:text-white px-4 py-2 rounded-full'
+            isActive ? 'text-white bg-primary px-4 py-2 rounded-full' : 
+            'text-gray-600 hover:bg-primary hover:text-white px-4 py-2 rounded-full'
           }
         >
           ABOUT
@@ -51,8 +43,8 @@ const Navbar = () => {
         <NavLink 
           to='/contact' 
           className={({ isActive }) => 
-            isActive ? 'text-white bg-[#38dbdb] px-4 py-2 rounded-full' : 
-            'text-gray-600 hover:bg-[#38dbdb] hover:text-white px-4 py-2 rounded-full'
+            isActive ? 'text-white bg-primary px-4 py-2 rounded-full' : 
+            'text-gray-600 hover:bg-primary hover:text-white px-4 py-2 rounded-full'
           }
         >
           CONTACT
@@ -88,8 +80,8 @@ const Navbar = () => {
               onClick={() => setShowMenu(false)} 
               to='/' 
               className={({ isActive }) => 
-                isActive ? 'text-white bg-[#38dbdb] w-full text-center py-3 rounded-full' : 
-                'text-gray-600 hover:bg-[#38dbdb] hover:text-white w-full text-center py-3 rounded-full'
+                isActive ? 'text-white bg-primary w-full text-center py-3 rounded-full' : 
+                'text-gray-600 hover:bg-primary hover:text-white w-full text-center py-3 rounded-full'
               }
             >
               HOME
@@ -98,8 +90,8 @@ const Navbar = () => {
               onClick={() => setShowMenu(false)} 
               to='/doctors' 
               className={({ isActive }) => 
-                isActive ? 'text-white bg-[#38dbdb] w-full text-center py-3 rounded-full' : 
-                'text-gray-600 hover:bg-[#38dbdb] hover:text-white w-full text-center py-3 rounded-full'
+                isActive ? 'text-white bg-primary w-full text-center py-3 rounded-full' : 
+                'text-gray-600 hover:bg-primary hover:text-white w-full text-center py-3 rounded-full'
               }
             >
               ALL DOCTORS
@@ -108,8 +100,8 @@ const Navbar = () => {
               onClick={() => setShowMenu(false)} 
               to='/about' 
               className={({ isActive }) => 
-                isActive ? 'text-white bg-[#38dbdb] w-full text-center py-3 rounded-full' : 
-                'text-gray-600 hover:bg-[#38dbdb] hover:text-white w-full text-center py-3 rounded-full'
+                isActive ? 'text-white bg-primary w-full text-center py-3 rounded-full' : 
+                'text-gray-600 hover:bg-primary hover:text-white w-full text-center py-3 rounded-full'
               }
             >
               ABOUT
@@ -118,8 +110,8 @@ const Navbar = () => {
               onClick={() => setShowMenu(false)} 
               to='/contact' 
               className={({ isActive }) => 
-                isActive ? 'text-white bg-[#38dbdb] w-full text-center py-3 rounded-full' : 
-                'text-gray-600 hover:bg-[#38dbdb] hover:text-white w-full text-center py-3 rounded-full'
+                isActive ? 'text-white bg-primary w-full text-center py-3 rounded-full' : 
+                'text-gray-600 hover:bg-primary hover:text-white w-full text-center py-3 rounded-full'
               }
             >
               CONTACT
