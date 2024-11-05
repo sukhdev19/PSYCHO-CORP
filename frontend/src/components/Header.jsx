@@ -1,9 +1,10 @@
-import React from 'react'
-import { assets } from '../assets/assets'
+import React from 'react';
+import { assets } from '../assets/assets';
+import headerImage from '../assets/header_image.png'; // Import the new header image
 
 const Header = () => {
     return (
-        <div className='flex flex-col md:flex-row flex-wrap bg-[#38dbdb] rounded-lg px-6 md:px-10 lg:px-20 width-full'>
+        <div className='flex flex-col md:flex-row flex-wrap bg-[#38dbdb] rounded-lg px-6 md:px-10 lg:px-20 w-full'>
 
             {/* --------- Header Left --------- */}
             <div className='md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px]'>
@@ -20,11 +21,11 @@ const Header = () => {
             </div>
 
             {/* --------- Header Right --------- */}
-            <div className='md:w-1/2 relative bg-[#38dbdb] rounded-lg overflow-hidden'>
-                <img className='w-full md:absolute bottom-0 h-auto rounded-lg' src={assets.header_img} alt="Header" />
+            <div className='md:w-1/2 relative rounded-lg overflow-hidden flex justify-center items-center bg-[#38dbdb]'>
+                <img className='w-full h-auto max-h-[800px] object-cover rounded-lg' src={headerImage} alt="Header" />
             </div>
         </div>
-    )
+    );
 }
 
-export default Header
+export default Header;
