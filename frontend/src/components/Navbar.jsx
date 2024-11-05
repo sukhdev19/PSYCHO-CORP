@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { assets } from '../assets/assets';
 import { NavLink, useNavigate } from 'react-router-dom';
 import logo from '../assets/file.png'; // Import the logo image
@@ -7,6 +7,24 @@ const Navbar = () => {
   const navigate = useNavigate();
   const [showMenu, setShowMenu] = useState(false);
   const [token, setToken] = useState(true);
+
+
+
+
+//   useState[theme , setTheme] = useState("")
+//   const toggleTheme = ()=>{
+//         if(theme == "dark"){
+//           setTheme('light-theme');
+//         }else{
+//           setTheme('dark-theme');
+//         }
+//   };
+
+//   useEffect(()=> {
+//     document.body.className = theme;
+//   } , []);
+
+
 
   return (
     <div className='flex items-center justify-between text-sm py-6 mb-5 border-b border-b-gray-400 h-20 sticky top-0 z-50 bg-white'>
@@ -57,6 +75,18 @@ const Navbar = () => {
         >
           CONTACT
         </NavLink>
+
+
+        <NavLink 
+          
+        >
+          <button className="text-white bg-slate-600  hover:text-[#38dbdb]  px-6 py-2 rounded-3xl" onClick = {()=>toggleTheme()} >
+          DarkMode
+          </button>
+        </NavLink>
+
+
+
       </ul>
 
       <div className='flex items-center gap-4'>
