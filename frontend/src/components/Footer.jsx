@@ -8,7 +8,7 @@ const Footer = () => {
 
         <div>
           <h2 className='text-2xl font-bold '>PSYCHOCORP</h2>
-          <p className='w-full md:w-2/3 text-gray-600 leading-6'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <p className='w-full md:w-2/3 text-gray-600 leading-6'>Psychocorp is a comprehensive doctor appointment website designed to simplify and enhance the healthcare experience. It enables users to easily book appointments with healthcare professionals, view detailed doctor profiles, and manage their medical consultations. The platform provides features like a searchable doctor listing, appointment scheduling, and user profile management, making it a one-stop solution for organizing healthcare needs. With a user-friendly interface, Psychocorp aims to bridge the gap between patients and medical providers, offering an efficient and accessible way to access quality healthcare services.</p>
         </div>
 
         <div>
@@ -24,8 +24,8 @@ const Footer = () => {
         <div>
           <p className='text-xl font-medium mb-5'>GET IN TOUCH</p>
           <ul className='flex flex-col gap-2 text-gray-600'>
-            <li>+1-212-456-7890</li>
-            <li>greatstackdev@gmail.com</li>
+            <li>+91 79066 21066</li>
+            <li>psychocorp456@gmail.com</li>
           </ul>
         </div>
 
