@@ -7,6 +7,12 @@
 * {
     font-family: Outfit;
 }
+html,
+body,
+:root{
+    height: 100%;
+    width: 100%;
+}
 
 .active hr {
     @apply block
@@ -22,5 +28,8 @@
     @apply hidden
 }
 
+/* <<<<<<< HEAD
 
 
+=======
+>>>>>>> 5021101e2d90a6ddb957be4d8ff8f568a5bd6ada */
