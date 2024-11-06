@@ -10,11 +10,14 @@ import Appointment from './pages/Appointment'
 import MyAppointments from './pages/MyAppointments'
 import MyProfile from './pages/MyProfile'
 import Footer from './components/Footer'
+import { ThemeProvider } from './context/ThemeContext'
 
 const App = () => {
   
   return (
-    <div className='mx-4 sm:mx-10%]'>
+    <ThemeProvider>
+    
+    <div className='h-full w-full dark:bg-dark-background dark:text-white'>
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
@@ -29,6 +32,9 @@ const App = () => {
       </Routes>
       <Footer />
     </div>
+
+    </ThemeProvider>
+
   )
 }
 

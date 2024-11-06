@@ -7,6 +7,12 @@
 * {
     font-family: 'Outfit', sans-serif; /* Ensure proper quotation around font name */
 }
+html,
+body,
+:root{
+    height: 100%;
+    width: 100%;
+}
 
 .active hr {
     @apply block;
@@ -21,3 +27,12 @@
 ::-webkit-scrollbar {
     @apply hidden;
 }
+<<<<<<< HEAD
+=======
+
+/* <<<<<<< HEAD
+
+
+=======
+>>>>>>> 5021101e2d90a6ddb957be4d8ff8f568a5bd6ada */
+>>>>>>> 64dbce5efa70bddc30bc9226125cddbf2d61e260
