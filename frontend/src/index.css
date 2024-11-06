@@ -5,23 +5,19 @@
 @tailwind utilities;
 
 * {
-    font-family: Outfit;
+    font-family: 'Outfit', sans-serif; /* Ensure proper quotation around font name */
 }
 
 .active hr {
-    @apply block
+    @apply block;
 }
 
-@media (max-width:740px) {
-    .active  p{
-       @apply text-white bg-primary
+@media (max-width: 740px) {
+    .active p {
+        @apply text-white bg-primary; /* Added semicolon */
     }
 }
 
 ::-webkit-scrollbar {
-    @apply hidden
+    @apply hidden;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 907a241fca83f24c83b917a40bbf10a43315e30a
