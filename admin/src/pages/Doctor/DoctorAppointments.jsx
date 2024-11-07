@@ -31,7 +31,7 @@ const DoctorAppointments = () => {
           <p>Action</p>
         </div>
         {appointments.map((item, index) => (
-          <div className='flex flex-wrap justify-between max-sm:gap-5 max-sm:text-base sm:grid grid-cols-[0.5fr_2fr_1fr_1fr_3fr_1fr_1fr] gap-1 items-center text-gray-500 py-3 px-6 border-b hover:bg-gray-50' key={index}>
+          <div className='flex flex-wrap justify-between max-sm:gap-5 max-sm:text-base sm:grid grid-cols-[0.5fr_2fr_1fr_1fr_3fr_1fr_1fr] gap-1 items-center text-gray-900 py-3 px-6 border-b hover:bg-gray-50' key={index}>
             <p className='max-sm:hidden'>{index}</p>
             <div className='flex items-center gap-2'>
               <img src={item.userData.image} className='w-8 rounded-full' alt="" /> <p>{item.userData.name}</p>
@@ -45,9 +45,9 @@ const DoctorAppointments = () => {
             <p>{slotDateFormat(item.slotDate)}, {item.slotTime}</p>
             <p>{currency}{item.amount}</p>
             {item.cancelled
-              ? <p className='text-red-400 text-xs font-medium'>Cancelled</p>
+              ? <p className='text-red-500 text-xs font-medium'>Cancelled</p>
               : item.isCompleted
-                ? <p className='text-green-500 text-xs font-medium'>Completed</p>
+                ? <p className='text-green-600 text-xs font-medium'>Completed</p>
                 : <div className='flex'>
                   <img onClick={() => cancelAppointment(item._id)} className='w-10 cursor-pointer' src={assets.cancel_icon} alt="" />
                   <img onClick={() => completeAppointment(item._id)} className='w-10 cursor-pointer' src={assets.tick_icon} alt="" />

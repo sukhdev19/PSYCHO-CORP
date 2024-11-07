@@ -1,11 +1,10 @@
-<svg width="300" height="60" viewBox="0 0 300 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Logo Icon (Stethoscope) -->
-  <circle cx="25" cy="25" r="8" stroke="#38dbdb" stroke-width="3" fill="none"/>
-  <line x1="25" y1="33" x2="25" y2="45" stroke="#38dbdb" stroke-width="3"/>
-  <circle cx="25" cy="50" r="5" fill="#38dbdb"/>
-  <path d="M35 45 C40 45, 40 30, 50 30 S 60 45, 65 45" fill="none" stroke="#38dbdb" stroke-width="3"/>
-  <circle cx="65" cy="45" r="3" fill="#38dbdb"/>
-
-  <!-- Text Logo "PsychoCorp" -->
-  <text x="80" y="40" fill="#38dbdb" font-size="40" font-family="Arial" font-weight="bold">PsychoCorp</text>
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Medical Icon: a simple cross symbol -->
+  <rect x="50" y="50" width="30" height="120" fill="#23d5d5"/>
+  <rect x="30" y="90" width="120" height="30" fill="#23d5d5"/>
+  
+  <!-- PSYCHOCORP text -->
+  <text x="200" y="50%" font-family="Helvetica, sans-serif" font-size="70" font-weight="bold" fill="#23d5d5" text-anchor="start" alignment-baseline="middle">
+    PSYCHOCORP
+  </text>
 </svg>
