@@ -17,7 +17,7 @@ const App = () => {
   return (
     <ThemeProvider>
     
-    <div className='h-full w-full dark:bg-dark-background dark:text-white'>
+    <div className=' dark:bg-dark-background dark:text-white mx-4 sm:mx-[0%]'>
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
