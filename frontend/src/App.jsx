@@ -1,4 +1,7 @@
+
+import React from 'react';
 import Navbar from './components/Navbar';
+import ChatbotPopup from './components/ChatbotPopup';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Doctors from './pages/Doctors';
@@ -32,6 +35,7 @@ const App = () => {
         <Route path='/verify' element={<Verify />} />
         <Route path='/room/:roomId' element={<RoomPage/>}/>
       </Routes>
+      <ChatbotPopup /> {/* Add the ChatbotPopup component here */}
       <Footer />
     </div>
   );
