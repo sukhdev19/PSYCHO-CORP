@@ -7,12 +7,6 @@
 * {
     font-family: 'Outfit', sans-serif; /* Ensure proper quotation around font name */
 }
-html,
-body,
-:root{
-    height: 100%;
-    width: 100%;
-}
 
 .active hr {
     @apply block;
