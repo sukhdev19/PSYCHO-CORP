@@ -13,9 +13,9 @@ const Contact = () => {
         <img className='w-full md:max-w-[360px]' src={assets.contact_image} alt="" />
         <div className='flex flex-col justify-center items-start gap-6'>
           <p className='font-semibold text-lg text-gray-600 dark:text-white'>OUR OFFICE</p>
-          <p className='text-gray-500 dark:text-white'>54709 Willms Station <br /> Suite 350, Washington, USA</p>
-          <p className='text-gray-500 dark:text-white'>Tel: (415) 555-0132 <br /> Email: greatstackdev@gmail.com</p>
-          <p className='font-semibold text-lg text-gray-600 dark:text-white'>CAREERS AT PRESCRIPTO</p>
+          <p className='text-gray-500 dark:text-white'>135K Manaspuram <br /> Gorakhpur, Uttar Pradesh, India</p>
+          <p className='text-gray-500 dark:text-white'>Tel: (000) 0551-2321435 <br /> Email: psychocorp@gmail.com</p>
+          <p className='font-semibold text-lg text-gray-600 dark:text-white'>CAREERS AT PSYCHOCORP</p>
           <p className='text-gray-500 dark:text-white'>Learn more about our teams and job openings.</p>
           <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500 dark:border-white'>
             Explore Jobs
