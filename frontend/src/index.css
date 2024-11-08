@@ -19,13 +19,6 @@
 }
 
 ::-webkit-scrollbar {
-<<<<<<< HEAD
-    @apply hidden;
-}
-
-
-=======
     @apply hidden
 }
 
->>>>>>> 7c42abeca930048b12b8eb3d98e4a33a359b0819
