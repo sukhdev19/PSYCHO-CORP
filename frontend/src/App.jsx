@@ -19,7 +19,7 @@ import RoomPage from './pages/Room';
 
 const App = () => {
   return (
-    <div className='mx-4 sm:mx-[0%] dark:bg-gray-900 dark:text-white'>
+    <div className='mx-1 sm:mx-[0%] dark:bg-gray-900 dark:text-white'>
       <ToastContainer />
       <Navbar />
       <Routes>

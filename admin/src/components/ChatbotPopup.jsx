@@ -81,7 +81,7 @@ const ChatbotPopup = () => {
             />
             <button
               onClick={sendMessage}
-              className="px-3 py-2 bg-white text-blue rounded-lg hover:bg-gray-300 transition "
+              className="px-3 py-2 bg-white text-blue rounded-lg hover:bg-gray-300 transition"
             >
               Send
             </button>
