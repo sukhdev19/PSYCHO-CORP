@@ -3,6 +3,6 @@
   <rect x="20" y="10" width="10" height="30" fill="#38dbdb"/>
   <rect x="10" y="20" width="30" height="10" fill="#38dbdb"/>
   
-  <!-- Bold and larger text for PsychoCorp -->
-  <text x="60" y="33" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#000000">PsychoCorp</text>
+  <!-- Bold and larger text for PsychoCorp with updated color -->
+  <text x="60" y="33" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#38dbdb">PsychoCorp</text>
 </svg>
